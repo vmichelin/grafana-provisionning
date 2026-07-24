@@ -1213,7 +1213,8 @@
                   {
                     "matcher": {
                       "id": "byName",
-                      "options": "Seeders (avg)"
+                      "options": "Seeders",
+                      "scope": "series"
                     },
                     "properties": [
                       {
@@ -1236,7 +1237,8 @@
                   {
                     "matcher": {
                       "id": "byName",
-                      "options": "Leechers (avg)"
+                      "options": "Leechers",
+                      "scope": "series"
                     },
                     "properties": [
                       {
@@ -1422,6 +1424,32 @@
                       {
                         "id": "custom.width",
                         "value": 80
+                      }
+                    ]
+                  },
+                  {
+                    "matcher": {
+                      "id": "byName",
+                      "options": "Seeders",
+                      "scope": "series"
+                    },
+                    "properties": [
+                      {
+                        "id": "custom.width",
+                        "value": 71
+                      }
+                    ]
+                  },
+                  {
+                    "matcher": {
+                      "id": "byName",
+                      "options": "Leechers",
+                      "scope": "series"
+                    },
+                    "properties": [
+                      {
+                        "id": "custom.width",
+                        "value": 74
                       }
                     ]
                   }
