@@ -537,7 +537,7 @@
                       "spec": {
                         "editorMode": "code",
                         "exemplar": false,
-                        "expr": "avg_over_time (transmission_torrent_seeders{name=~\"$Torrent\"}[30d])",
+                        "expr": "transmission_torrent_seeders{name=~\"$Torrent\"}",
                         "format": "table",
                         "instant": true,
                         "legendFormat": "{{name}}",
@@ -561,7 +561,7 @@
                       "spec": {
                         "editorMode": "code",
                         "exemplar": false,
-                        "expr": "avg_over_time (transmission_torrent_leechers{name=~\"$Torrent\"}[30d])",
+                        "expr": "transmission_torrent_leechers{name=~\"$Torrent\"}",
                         "format": "table",
                         "instant": true,
                         "legendFormat": "{{name}}",
@@ -1005,8 +1005,8 @@
                         "Value #A": "Avg Upload 30 days",
                         "Value #B": "Ratio",
                         "Value #C": "Files",
-                        "Value #D": "Seeders (avg)",
-                        "Value #E": "Leechers (avg)",
+                        "Value #D": "Seeders",
+                        "Value #E": "Leechers",
                         "Value #F": "Added",
                         "Value #G": "Downloads",
                         "Value #H": "Current upload",
