@@ -1161,7 +1161,7 @@
                             },
                             {
                               "color": "green",
-                              "value": 1.1
+                              "value": 1.01
                             }
                           ]
                         }
@@ -1462,7 +1462,7 @@
                 "sortBy": [
                   {
                     "desc": true,
-                    "displayName": "Uploaded"
+                    "displayName": "Ratio"
                   }
                 ]
               }
