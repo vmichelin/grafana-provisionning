@@ -1137,13 +1137,14 @@
                       {
                         "id": "custom.cellOptions",
                         "value": {
+                          "applyToRow": false,
                           "mode": "gradient",
                           "type": "color-background"
                         }
                       },
                       {
                         "id": "decimals",
-                        "value": 2
+                        "value": 3
                       },
                       {
                         "id": "thresholds",
@@ -1156,11 +1157,11 @@
                             },
                             {
                               "color": "#EAB839",
-                              "value": 1
+                              "value": 0.8
                             },
                             {
                               "color": "green",
-                              "value": 2
+                              "value": 1.1
                             }
                           ]
                         }
